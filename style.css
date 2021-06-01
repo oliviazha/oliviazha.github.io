@@ -31,6 +31,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    margin-left: auto;
+    margin-right: auto;
+    width: 56vw;
 }
 
 blockquote, q {
@@ -70,7 +73,7 @@ h2 {
 
 #introduction {
     font-family: 'Karla', sans-serif;
-    width: 100vw;
+    /* width: 100vw; */
     height: 55vh;
     top: 0px;
     left: 0px;
@@ -148,11 +151,11 @@ button {
     color:rgb(53, 141, 141);
 } 
 
-.section {
+/* .section {
     margin-left: auto;
     margin-right: auto;
     width: 56vw;
-}
+} */
 
 /* #logo {
     width: 6vw;
@@ -257,6 +260,49 @@ button {
 
 .hide {
     display: none;
+}
+
+.projname {
+    padding-top: 3rem;
+    width: 56vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projname h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.projname h2, p {
+    /* line-height: 1rem; */
+    opacity: 0.5;
+}
+
+
+
+/*digital dabbles*/
+
+#piece {
+    margin-top: 1rem;
+    width: 56vw
+}
+
+.art-gallery {
+    opacity: 1;
+    display: grid;
+    grid-template-columns: 27vw 27vw;
+    height: auto;
+    grid-gap: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    /* z-index: 9; */
+}
+
+.art-gallery  div img {
+    width: 26vw;
+    height: auto;
 }
 
 
