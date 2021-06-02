@@ -281,7 +281,7 @@ button {
 
 
 
-/*digital dabbles*/
+/* digital dabbles */
 
 #piece {
     margin-top: 1rem;
@@ -301,7 +301,47 @@ button {
 }
 
 .art-gallery  div img {
-    width: 26vw;
+    width: 27vw;
+    height: auto;
+}
+
+/* holiday cards */
+
+.holidays-gallery {
+    opacity: 1;
+    display: grid;
+    grid-template-columns: 18vw 18vw 18vw;
+    grid-gap: 1rem;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    /* z-index: 9; */
+}
+
+.holidays-gallery  div img {
+    width: 18vw;
+    height: auto;
+}
+
+
+.projdescript {
+    opacity: 1;
+    display: grid;
+    grid-template-columns: 15vw 39vw;
+    grid-gap: 2rem;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    max-width: 56vw;
+    /* z-index: 9; */
+}
+
+.projdescript div p{
+    width: 39vw;
     height: auto;
 }
 
