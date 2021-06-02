@@ -264,7 +264,7 @@ button {
 
 .projname {
     padding-top: 3rem;
-    width: 56vw;
+    width: 55vw;
     margin-left: auto;
     margin-right: auto;
 }
@@ -345,7 +345,34 @@ button {
     height: auto;
 }
 
+/* cny cards */
 
+.cny-gallery {
+    opacity: 1;
+    display: grid;
+    grid-template-columns: 32vw 24vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    /* z-index: 9; */
+}
+
+.cny-gallery div img {
+    width: 32vw;
+    height: auto;
+}
+
+.cny-gallery div p {
+    margin-top: 4rem;
+    width: 24vw;
+    height: auto;
+}
+
+#yuanbao {
+    width: 100%;
+    float: left
+}
 /* The Modal (background) */
 /* .modal {
     display: none;
