@@ -237,8 +237,8 @@ button {
 
 .intro-grid {
     display: grid;
-    grid-template-columns: 19vw 36w;
-    grid-gap: 1vw;
+    grid-template-columns: 19vw 36vw;
+    grid-gap: 2vw;
     margin-top: 3rem;
     width: 56vw;
     margin-left: auto;
@@ -252,12 +252,13 @@ button {
 }
 
 #me {
-    width: 30%;
+    width: 100%;
 }
 
 .intro-grid p,ul {
     font-family: 'Karla', sans-serif;
     font-weight: 300;
+    /* width: 36vw */
 }
 
 /* section #post {
