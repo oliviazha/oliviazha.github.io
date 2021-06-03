@@ -90,7 +90,7 @@ h3 {
 }
 
 #introduction h1,p, #links {
-    width: 55vw;
+    width: 56vw;
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
@@ -158,6 +158,18 @@ button {
     margin-right: 3em;
     color:rgb(53, 141, 141);
 } 
+
+a:link {
+    color: rgb(40, 121, 121);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #5776ca;
+    background-color: transparent;
+    text-decoration: none;
+  }
 
 /* .section {
     margin-left: auto;
@@ -416,11 +428,11 @@ button {
 }
 
 #paach-parts h2 {
-    color:rgb(42, 40, 156);
-    font-weight:500;
+    color: rgb(40, 121, 121);
+    font-weight:600;
 }
 
-/* paach */
+/* keru */
 
 .keru-gallery {
     opacity: 1;
@@ -440,6 +452,20 @@ button {
     /* margin-bottom: 1rem; */
     height: auto;
 }
+
+#keru-parts h3 {
+    color: rgb(40, 121, 121);
+    font-weight:600;
+}
+
+/* gamescouts */
+
+#gamescouts-parts h2 {
+    color: rgb(40, 121, 121);
+    font-weight:600;
+}
+
+
 
 /* The Modal (background) */
 /* .modal {
