@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+  background-color: #0c0901;
 	line-height: 1;
     margin-left: auto;
     margin-right: auto;
@@ -51,9 +52,8 @@ html {
 }
 
 p, ol, ul {
-    font-size: 0.9rem;
+    /* font-size: 0.9rem; */
     line-height: 1.5rem;
-    opacity: 0.7;
     margin-bottom: 1em;
 }
 
@@ -61,14 +61,12 @@ h2 {
     font-size: 1rem;
     line-height: 1.5rem;
     margin-bottom: 0.2rem;
-    opacity: 0.8;
 }
 
 h3 {
     font-size: .9rem;
     line-height: 1.5rem;
     margin-bottom: 0.2rem;
-    opacity: 0.8;
     font-weight: 400;
 }
 
@@ -81,37 +79,52 @@ h3 {
 
 #introduction {
     font-family: 'Karla', sans-serif;
-    /* width: 100vw; */
+    color: #9cbac6;
     height: 48vh;
     top: 0px;
     left: 0px;
-    text-align: left;
-    /* padding-top: 10vh; */
 }
 
-#introduction h1,p, #links {
+#introduction h1,p {
     width: 56vw;
     margin-left: auto;
     margin-right: auto;
-    text-align: justify;
 }
 
 #introduction h1 {
     padding-top: 9vh;
     font-weight: 500;
-    opacity: 0.8;
-    /* text-align: center; */
 }
 
 #introduction p {
-    font-size: 1rem;
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
+#introduction a:link {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 #introduction a:hover {
-    color: #6e95ff;
-    line-height: 50px;
+    color: #ef942b;
+    /* line-height: 50px;
     border-bottom: 3px solid #6e95ff;
-    /* transition: 0.3s ease-in-out; */
+    transition: 0.3s ease-in-out; */
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%
 }
 
 body {
@@ -128,7 +141,7 @@ nav a{
     font-size: 1.1rem;
     text-decoration: none;
     color: black;
-    opacity: 0.7;
+    opacity: 1;
     /* padding-right: 1em; */
     padding-top: 0.5em;
 }
@@ -156,17 +169,17 @@ button {
 #links a{
     padding-top: 0.5vh;
     margin-right: 3em;
-    color:rgb(53, 141, 141);
+    /* color:rgb(53, 141, 141); */
 } 
 
 a:link {
-    color: rgb(40, 121, 121);
+    /* color: rgb(70, 128, 136); */
     background-color: transparent;
     text-decoration: none;
   }
   
   a:visited {
-    color: #5776ca;
+    /* color: #5776ca; */
     background-color: transparent;
     text-decoration: none;
   }
@@ -204,7 +217,7 @@ a:link {
 
 .grid-container a {
     text-decoration: none;
-    color: rgb(53, 141, 141);
+    /* color: rgb(53, 141, 141); */
 /*    color: black;*/
 }
 
@@ -220,7 +233,7 @@ a:link {
 }
 
 .grid-container div:hover #title {
-    opacity: 0.8;
+    /* opacity: 0.8; */
     float: left;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
