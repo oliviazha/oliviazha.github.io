@@ -162,7 +162,7 @@ footer {
 button {
     border: none;
     cursor: pointer;
-	outline: inherit;
+	  outline: inherit;
     background: none;
 }
 
