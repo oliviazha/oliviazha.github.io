@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-  background-color: #0c0901;
+  /* background-color: #0c0901; */
 	line-height: 1;
     margin-left: auto;
     margin-right: auto;
@@ -140,7 +140,7 @@ nav a{
     font-family: 'Karla', sans-serif;
     font-size: 1.1rem;
     text-decoration: none;
-    color: black;
+    /* color: black; */
     opacity: 1;
     /* padding-right: 1em; */
     padding-top: 0.5em;
